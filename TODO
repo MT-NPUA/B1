@@ -1,0 +1,37 @@
++-------------------------------+       +--------------------------+
+|         Introductions         |       | Who can modify the list? |
++-------------------------------+       +--------------------------+
+| []  - If the task is open.    |       |      Janik Tarverdyan    |
+| [x] - If the task has a bug.  |       +--------------------------+
+| [v] - If the task is closed.  |
+| >>  - If the task assigned    |
++-------------------------------+
+| Spaces par tab: 4             |
++-------------------------------+
+
++-----------------------------------------------------------------------------+
+|                                  Description                                |
++-----------------------------------------------------------------------------+
+| You are going to learn some big and global studies that you need to use     |
+| everywhere. You'll also get different tasks here. Be watchful to not miss   |
+| anything and do what TODOs say. Feel free to ask if you have questions.     |
+| The mail for contact: Janik Tarverdyan <Janik.Tarverdyan@gmail.com>         |
++-----------------------------------------------------------------------------+
+
+
+
+################################## ToDo List ##################################
+
+
+=========================== Start date: 23/04/2021 ===========================
+
++-------------------------------+
+| TODO 1: clean the source code |
++-------------------------------+
+
+  [] All configuration must be called from the ".env" file
+  [] Make sure code is clean before pushing.
+  [] The server needs to be run from the "wsgi"
+  [] Write how to start up project in ./README.md
+
+========================= Completion date: 30/04/2021 =========================
