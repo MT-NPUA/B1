@@ -1,6 +1,6 @@
 ![Logo of the project](data/media/image/app_logo.png)
 
-# Prestige Motors LLC - eCommerce API
+# B1 - API
 
 > Additional information or tag line
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
