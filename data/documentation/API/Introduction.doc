@@ -51,7 +51,7 @@ API Strategy Resources:
 Also read the following:
   1. API introduction: https://cutt.ly/4c7wGII
   2. Rest API introduction: https://cutt.ly/mc7wKB4
-  3. Look at the attached files
+
 
 
 The next step you need to study the following.
@@ -61,3 +61,4 @@ API's Documentation:
   2. Flask-RESTful: https://flask-restful.readthedocs.io
   3. Flask-RESTX’s: https://flask-restx.readthedocs.io
   4. Necessaries: https://palletsprojects.com/
+

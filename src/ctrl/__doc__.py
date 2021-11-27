@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# __init__.py
+# __doc__.py
 #
 # one line to give the program's name and a brief description.
 #
@@ -20,8 +20,9 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 """
-    ctrl.__init__
-    ~~~~~~~~~~~~~
+    ctrl.__doc__
+    ~~~~~~~~~~~~
+
 
     Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
     eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
