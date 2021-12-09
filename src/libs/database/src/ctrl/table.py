@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# info.function.py
+# table.py
 #
+# TODO: code of couduct
 #
 # Copyright © 2021 Janik Tarverdyan <Janik.Tarverdyan@gmail.com>
 #
@@ -18,21 +19,38 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-# -*- coding: utf-8 -*-
 """
-    tests.info_function
-    ~~~~~~~~~~~~~~~~~~~
+    ctrl.table
+    ~~~~~~~~~~
 
     DESCRIPTION
 
-    :copyright: (c) 2021 by YOUR_NAME.
-    :license: LICENSE_NAME, see LICENSE for more details.
+    :copyright: (c) 2021 by Janik Tarverdyan <Janik.Tarverdyan@gmail.om>.
+    :license: FDLv1-3, see LICENSE for more details.
 """
 
-from ..src.core.settings import base
 
+class Table:
+    # Permissions of the class
+    public_EXP = 'Public expressoin for the class'
+    _private_EXP = 'Private expression for the class'
+    __protected_EXP = 'Protected expression for the class'
 
-print(base.PATH.as_posix())
+    def Any_Function():
+        # code of any function
+        pass
 
-def check_call():
-    return 'Import working!'
+    @classmethod
+    def get():
+        # code of class method
+        pass
+
+    @staticmethod
+    def static_method():
+        # code of static method
+        pass
+
+    @property
+    def Property():
+        # code of property
+        pass
