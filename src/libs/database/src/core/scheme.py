@@ -22,11 +22,28 @@
     core.scheme
     ~~~~~~~~~~~
 
-    TODO: DESCRIPTION
+    A schema is the structure behind data organization. It is a visual
+    representation of how different table relationships enable the schema’s
+    underlying mission business rules for which the database is created.s
 
-    :copyright: (c) 2021 by Janik Tarverdyan <Janik.Tarverdyan@gmail.com>.
-    :license: FDLv1-3, see LICENSE.fdl_1-3 for more details.
+    In a schema diagram, all database tables are designated with unique columns
+    and special features, e.g., primary/foreign keys or not null, etc. Formats
+    and symbols for expression are universally understood, eliminating the
+    possibility of confusion. The table relationships also are expressed via a
+    parent table’s primary key lines when joined with the child table’s
+    corresponding foreign
+    keys.
+
+    Schema diagrams have an important function because they force database
+    developers to transpose ideas to paper. This provides an overview of the
+    entire database, while facilitating future database administrator work.
+
+    Database (DB) refers to schema as a user collection of database
+    objects. The schema and user names are the same but function quite
+    distinctly; i.e., a user may be deleted or reassigned to another user while
+    its collection of objects (schema) within the database remains intact.
 """
+
 
 from .log import Log
 
@@ -141,7 +158,7 @@ class Schema(object):
         pass
 
     @Log
-    def file(self):
+    def file(self, name: str, datetime: 'date type'):
         """Description
 
         @param param:  Description
@@ -155,7 +172,7 @@ class Schema(object):
         pass
 
     @Log.info(**action)
-    def info(self):
+    def dump(self):
         """Description
 
         @param param:  Description
