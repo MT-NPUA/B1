@@ -19,8 +19,8 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 """
-    core.scheme
-    ~~~~~~~~~~~
+  core.scheme
+  ~~~~~~~~~~~
 
     A schema is the structure behind data organization. It is a visual
     representation of how different table relationships enable the schema’s
@@ -49,8 +49,7 @@ from .log import Log
 
 
 class Schema(object):
-    """
-        Description
+    """Description
     """
 
     def __init__(self):
