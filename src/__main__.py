@@ -39,12 +39,12 @@
 
 from modules.first.functionality import sqr_exqu
 
-# a = int(input("\n\ta = "))
-# b = int(input("\tb = "))
-# c = int(input("\tc = "))
+a = int(input("\n\ta = "))
+b = int(input("\tb = "))
+c = int(input("\tc = "))
 
 
-# print(sqr_exqu(a, b, c))
+print(sqr_exqu(a, b, c))
 
 
-print(help(sqr_exqu))
+# print(help(sqr_exqu))

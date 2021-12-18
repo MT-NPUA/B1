@@ -19,7 +19,10 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-f"""
+
+# from .core.settings.base import PATH
+
+"""
     database.__init__
     ~~~~~~~~~~~~~~~~~
 

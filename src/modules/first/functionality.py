@@ -49,7 +49,16 @@
 """
 
 
-""" Description about function of module
+def sqr_exqu(a: int,
+             b: int,
+             c: int) -> float:
+    """ Title of the function
+
+         firmitatem animi nec mortem nec dolorem
+         timentis, quod mors sensu careat, dolor
+         in longinquitate levis, in gravitate.
+
+    Description about function of module
 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minima
@@ -66,31 +75,20 @@
     nihil esse prosperum nisi voluptatem, nihil asperum nisi dolorem, de.
 
 
-@param a:  Description
-@type  a:  int
+    @param a:  Description
+    @type  a:  int
 
-@param b:  Description
-@type  b:  int
+    @param b:  Description
+    @type  b:  int
 
-@param c:  Description
-@type  c:  int
+    @param c:  Description
+    @type  c:  int
 
-@return:  Description
-@rtype :  float
+    @return:  Description
+    @rtype :  float
 
-@raise e:  Description
+    @raise e:  Description
 """
-
-
-def sqr_exqu(a: int,
-             b: int,
-             c: int) -> float:
-    """ Title of the function
-
-         firmitatem animi nec mortem nec dolorem
-         timentis, quod mors sensu careat, dolor
-         in longinquitate levis, in gravitate.
-    """
 
     d = None
     if a != 0:

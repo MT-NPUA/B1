@@ -35,7 +35,7 @@ See:
 
 
 import pathlib
-import sysconfig
+# import sysconfig
 import subprocess
 # Always prefer setuptools over distutils
 from setuptools import setup, find_packages
@@ -63,13 +63,13 @@ _DEBUG = False
 _DEBUG_LEVEL = 0
 
 # Common flags for both release and debug builds.
-extra_compile_args = sysconfig.get_config_var('CFLAGS').split()
-extra_compile_args += ["-std=c++11", "-Wall", "-Wextra"]
-if _DEBUG:
-    extra_compile_args += ["-g3", "-O0",
-                           "-DDEBUG=%s" % _DEBUG_LEVEL, "-UNDEBUG"]
-else:
-    extra_compile_args += ["-DNDEBUG", "-O3"]
+# extra_compile_args = sysconfig.get_config_var('CFLAGS').split()
+# extra_compile_args += ["-std=c++11", "-Wall", "-Wextra"]
+# if _DEBUG:
+    # extra_compile_args += ["-g3", "-O0",
+                           # "-DDEBUG=%s" % _DEBUG_LEVEL, "-UNDEBUG"]
+# else:
+    # extra_compile_args += ["-DNDEBUG", "-O3"]
 
 
 class PostDevelopCommand(develop):
