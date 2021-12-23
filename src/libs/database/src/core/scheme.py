@@ -19,8 +19,9 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 """
-    core.scheme
-    ~~~~~~~~~~~
+  core.scheme
+  ~~~~~~~~~~~
+
 
     A schema is the structure behind data organization. It is a visual
     representation of how different table relationships enable the schema’s
@@ -31,17 +32,16 @@
     and symbols for expression are universally understood, eliminating the
     possibility of confusion. The table relationships also are expressed via a
     parent table’s primary key lines when joined with the child table’s
-    corresponding foreign
-    keys.
+    corresponding foreign keys.
 
     Schema diagrams have an important function because they force database
     developers to transpose ideas to paper. This provides an overview of the
     entire database, while facilitating future database administrator work.
 
-    Database (DB) refers to schema as a user collection of database
-    objects. The schema and user names are the same but function quite
-    distinctly; i.e., a user may be deleted or reassigned to another user while
-    its collection of objects (schema) within the database remains intact.
+    Database (DB) refers to schema as a user collection of database objects.
+    The schema and user names are the same but function quite distinctly;
+    i.e., a user may be deleted or reassigned to another user while its
+    collection of objects (schema) within the database remains intact.
 """
 
 
@@ -157,7 +157,7 @@ class Schema(object):
         pass
 
     @Log
-    def file(self, name: str, datetime: 'date type'):
+    def log_file(self, name: str, datetime: 'date type'):
         """Description
 
         @param param:  Description
@@ -171,7 +171,7 @@ class Schema(object):
         pass
 
     @Log.info(**action)
-    def dump(self):
+    def log_dump(self, log_file: str) -> 'json':
         """Description
 
         @param param:  Description
